@@ -1,1 +1,7 @@
-.venv/
+# Hugo
+public/
+resources/
+.hugo_build.lock
+
+# Version management (keep .hugo-version in repo)
+# .hugo-version

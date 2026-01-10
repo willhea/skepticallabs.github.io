@@ -1,80 +1,62 @@
-PY?=
-PELICAN?=pelican
-PELICANOPTS=
+.PHONY: help check-hugo server server-drafts build clean setup
 
-BASEDIR=$(CURDIR)
-INPUTDIR=$(BASEDIR)/content
-OUTPUTDIR=$(BASEDIR)/output
-CONFFILE=$(BASEDIR)/pelicanconf.py
-PUBLISHCONF=$(BASEDIR)/publishconf.py
+# Hugo version from .hugo-version file
+HUGO_VERSION := $(shell cat .hugo-version 2>/dev/null || echo "latest")
+HUGO_CMD := hugo
 
-GITHUB_PAGES_BRANCH=gh-pages
-GITHUB_PAGES_COMMIT_MESSAGE=Generate Pelican site
+help: ## Show this help message
+	@echo 'Usage: make [target]'
+	@echo ''
+	@echo 'Available targets:'
+	@awk 'BEGIN {FS = ":.*?## "} /^[a-zA-Z_-]+:.*?## / {printf "  %-15s %s\n", $$1, $$2}' $(MAKEFILE_LIST)
 
+check-hugo: ## Check if Hugo is installed and matches required version
+	@if ! command -v $(HUGO_CMD) > /dev/null 2>&1; then \
+		echo "❌ Hugo is not installed."; \
+		echo "   Install Hugo version $(HUGO_VERSION) or run: brew install hugo"; \
+		exit 1; \
+	fi
+	@INSTALLED_VERSION=$$($(HUGO_CMD) version | grep -oE 'v[0-9]+\.[0-9]+\.[0-9]+' | head -1 | sed 's/v//'); \
+	REQUIRED_VERSION="$(HUGO_VERSION)"; \
+	if [ -n "$$INSTALLED_VERSION" ] && [ -n "$$REQUIRED_VERSION" ] && [ "$$REQUIRED_VERSION" != "latest" ]; then \
+		INSTALLED_MAJOR=$$(echo $$INSTALLED_VERSION | cut -d. -f1); \
+		INSTALLED_MINOR=$$(echo $$INSTALLED_VERSION | cut -d. -f2); \
+		REQUIRED_MAJOR=$$(echo $$REQUIRED_VERSION | cut -d. -f1); \
+		REQUIRED_MINOR=$$(echo $$REQUIRED_VERSION | cut -d. -f2); \
+		if [ $$INSTALLED_MAJOR -lt $$REQUIRED_MAJOR ] || ([ $$INSTALLED_MAJOR -eq $$REQUIRED_MAJOR ] && [ $$INSTALLED_MINOR -lt $$REQUIRED_MINOR ]); then \
+			echo "⚠️  Warning: Hugo version may be too old"; \
+			echo "   Installed: $$INSTALLED_VERSION"; \
+			echo "   Required:  $$REQUIRED_VERSION (minimum)"; \
+		fi \
+	fi
+	@echo "✅ Hugo is installed: $$($(HUGO_CMD) version | head -1)"
 
-DEBUG ?= 0
-ifeq ($(DEBUG), 1)
-	PELICANOPTS += -D
-endif
+server: check-hugo ## Run Hugo development server locally
+	@echo "Starting Hugo development server..."
+	@echo "Site will be available at http://localhost:1313"
+	$(HUGO_CMD) server
 
-RELATIVE ?= 0
-ifeq ($(RELATIVE), 1)
-	PELICANOPTS += --relative-urls
-endif
+server-drafts: check-hugo ## Run Hugo development server with drafts
+	@echo "Starting Hugo development server with drafts..."
+	@echo "Site will be available at http://localhost:1313"
+	$(HUGO_CMD) server -D
 
-SERVER ?= "0.0.0.0"
+build: check-hugo ## Build the static site
+	@echo "Building static site..."
+	$(HUGO_CMD)
+	@echo "✅ Site built in public/ directory"
 
-PORT ?= 0
-ifneq ($(PORT), 0)
-	PELICANOPTS += -p $(PORT)
-endif
+clean: ## Remove generated files
+	rm -rf public/
+	rm -rf resources/
+	rm -f .hugo_build.lock
+	@echo "✅ Cleaned generated files"
 
-
-help:
-	@echo 'Makefile for a pelican Web site                                           '
-	@echo '                                                                          '
-	@echo 'Usage:                                                                    '
-	@echo '   make html                           (re)generate the web site          '
-	@echo '   make clean                          remove the generated files         '
-	@echo '   make regenerate                     regenerate files upon modification '
-	@echo '   make publish                        generate using production settings '
-	@echo '   make serve [PORT=8000]              serve site at http://localhost:8000'
-	@echo '   make serve-global [SERVER=0.0.0.0]  serve (as root) to $(SERVER):80    '
-	@echo '   make devserver [PORT=8000]          serve and regenerate together      '
-	@echo '   make devserver-global               regenerate and serve on 0.0.0.0    '
-	@echo '   make github                         upload the web site via gh-pages   '
-	@echo '                                                                          '
-	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html   '
-	@echo 'Set the RELATIVE variable to 1 to enable relative urls                    '
-	@echo '                                                                          '
-
-html:
-	"$(PELICAN)" "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(CONFFILE)" $(PELICANOPTS)
-
-clean:
-	[ ! -d "$(OUTPUTDIR)" ] || rm -rf "$(OUTPUTDIR)"
-
-regenerate:
-	"$(PELICAN)" -r "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(CONFFILE)" $(PELICANOPTS)
-
-serve:
-	"$(PELICAN)" -l "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(CONFFILE)" $(PELICANOPTS)
-
-serve-global:
-	"$(PELICAN)" -l "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(CONFFILE)" $(PELICANOPTS) -b $(SERVER)
-
-devserver:
-	"$(PELICAN)" -lr "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(CONFFILE)" $(PELICANOPTS)
-
-devserver-global:
-	"$(PELICAN)" -lr "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(CONFFILE)" $(PELICANOPTS) -b 0.0.0.0
-
-publish:
-	"$(PELICAN)" "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(PUBLISHCONF)" $(PELICANOPTS)
-
-github: publish
-	ghp-import -m "$(GITHUB_PAGES_COMMIT_MESSAGE)" -b $(GITHUB_PAGES_BRANCH) "$(OUTPUTDIR)" --no-jekyll
-	git push origin $(GITHUB_PAGES_BRANCH)
-
-
-.PHONY: html help clean regenerate serve serve-global devserver devserver-global publish github
+setup: check-hugo ## Complete setup: verify Hugo installation
+	@echo "✅ Setup complete!"
+	@echo ""
+	@echo "Hugo version: $$($(HUGO_CMD) version | head -1)"
+	@echo ""
+	@echo "Next steps:"
+	@echo "  1. Run server: make server"
+	@echo "  2. Build site: make build"
