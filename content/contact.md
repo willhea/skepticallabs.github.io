@@ -1,8 +1,20 @@
 ---
-title: "Contact Us"
+title: "Contact"
 description: "Get in touch with Skeptical Labs LLC"
 ---
 
-# Contact Us
+## Get in Touch
 
-We'd love to hear from you. Get in touch to discuss how Skeptical Labs LLC can help your business.
+**Email:** will@skepticallabs.com
+
+**LinkedIn:** [linkedin.com/in/willhea](https://linkedin.com/in/willhea)
+
+## Location
+
+Arlington, VA (Washington, DC metro area)
+
+We work with clients nationwide and internationally. Most engagements are remote-first, with on-site work as needed.
+
+## Response Time
+
+We typically respond within 1-2 business days.

@@ -1,8 +1,16 @@
 ---
 title: "Skeptical Labs LLC"
-description: "Expert consulting services in the Washington, DC area"
+description: "Operations consulting for startups and government"
 ---
 
-# Welcome to Skeptical Labs LLC
+We walk into dysfunction, build systems to create data visibility, and use that data to drive decisions.
 
-Skeptical Labs LLC is a consulting company based in the Washington, DC area, providing expert consulting services to help businesses solve complex challenges.
+Skeptical Labs LLC is a solo consulting practice led by [Will Hea](https://willhea.com), specializing in operations, process improvement, and revenue systems for startups and government clients.
+
+{{< button href="/services/" target="_self" >}}
+Our Services
+{{< /button >}}
+
+{{< button href="/contact/" target="_self" >}}
+Get in Touch
+{{< /button >}}
