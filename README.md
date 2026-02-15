@@ -1,5 +1,6 @@
-# skepticallabs.github.io_private
-Private repo for Skepticallabs.com
+# skepticallabs.github.io
+
+Source repo for [skepticallabs.com](https://skepticallabs.com)
 
 ## Hugo Static Site Generator
 
@@ -151,7 +152,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.150.0'
+          hugo-version: '0.155.3'
           extended: true
       - name: Build
         run: hugo

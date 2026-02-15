@@ -1,9 +1,0 @@
----
-description: Pelican requirements
-globs:
-alwaysApply: true
----
-
-- This project uses **Pelican** to generate blog posts and website content.  
-- Always consult the latest Pelican documentation: https://docs.getpelican.com/en/latest/ before suggesting commands, settings, or plugins.  
-- Prefer solutions that are compatible with Pelican’s current stable release
