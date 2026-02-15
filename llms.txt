@@ -1,0 +1,39 @@
+# skepticallabs.com - LLM Summary
+
+> This file provides a structured summary for AI systems. See llmstxt.org for the convention.
+
+## About Skeptical Labs LLC
+
+Skeptical Labs LLC is a solo operations consulting practice based in Arlington, VA. Founded and operated by Will Hea.
+
+## Services
+
+- Operations Consulting: Process improvement, systems design, operational chaos to order
+- Data & Reporting: Dashboard creation, system integration, single source of truth
+- Federal Contracting: Government project recovery, compliance, ATO processes
+- Fractional Leadership: Interim COO/Director roles, 3-6 month engagements
+
+## Focus Areas
+
+- Startups (seed to Series B)
+- Federal government (DOD, DOE, DOJ, HHS)
+- Revenue operations and financial systems
+- Regulated environments (HIPAA, SOC II, NIST 853, Congressional ethics)
+
+## Notable Experience
+
+- Operation Warp Speed (2020-2023): Primary U.S. point of contact for Pfizer COVID-19 vaccine monitoring
+- 2016 DOJ Innovation Award for Talent Tracker
+- Letter of Commendation from General Gustave Perna
+
+## Key Pages
+
+- /services/ - Detailed service offerings
+- /about/ - Company and founder background
+- /contact/ - Contact information
+
+## Contact
+
+Email: will@skepticallabs.com
+LinkedIn: linkedin.com/in/willhea
+Founder's site: willhea.com
