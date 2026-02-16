@@ -1,0 +1,37 @@
+/* Skeptical Labs color scheme - WMATA metro-inspired */
+:root {
+  --color-neutral: 255, 255, 255;
+  /* Gray/Silver scale */
+  --color-neutral-50: 250, 250, 250;
+  --color-neutral-100: 244, 244, 245;
+  --color-neutral-200: 228, 228, 231;
+  --color-neutral-300: 212, 212, 216;
+  --color-neutral-400: 162, 164, 161;
+  --color-neutral-500: 113, 113, 122;
+  --color-neutral-600: 82, 82, 91;
+  --color-neutral-700: 63, 63, 70;
+  --color-neutral-800: 39, 39, 42;
+  --color-neutral-900: 24, 24, 27;
+  /* Blue (Primary) - #0078BE */
+  --color-primary-50: 230, 244, 250;
+  --color-primary-100: 204, 233, 245;
+  --color-primary-200: 153, 210, 235;
+  --color-primary-300: 102, 188, 225;
+  --color-primary-400: 51, 165, 215;
+  --color-primary-500: 0, 120, 190;
+  --color-primary-600: 0, 108, 171;
+  --color-primary-700: 0, 96, 152;
+  --color-primary-800: 0, 84, 133;
+  --color-primary-900: 0, 60, 95;
+  /* Orange (Secondary) - #ED8B00 */
+  --color-secondary-50: 255, 247, 230;
+  --color-secondary-100: 254, 239, 204;
+  --color-secondary-200: 253, 223, 153;
+  --color-secondary-300: 252, 207, 102;
+  --color-secondary-400: 245, 175, 51;
+  --color-secondary-500: 237, 139, 0;
+  --color-secondary-600: 213, 125, 0;
+  --color-secondary-700: 190, 111, 0;
+  --color-secondary-800: 166, 97, 0;
+  --color-secondary-900: 119, 70, 0;
+}

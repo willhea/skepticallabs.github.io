@@ -11,13 +11,14 @@ title = "Skeptical Labs LLC"
   dateFormat = "2 January 2006"
   description = "Operations consulting for startups and government. We build systems, create data visibility, and drive decisions."
   copyright = "© { year } Skeptical Labs LLC"
+  logo = "images/logo.svg"
 
 [params.author]
   name = "Skeptical Labs LLC"
   email = "will@skepticallabs.com"
   headline = "Operations Consulting"
-  bio = "We walk into dysfunction, build systems to create data visibility, and use that data to drive decisions."
+  bio = "We embed where clarity is needed, surface what's not working, and build systems that outlast our engagement."
   links = [
     { email = "mailto:will@skepticallabs.com" },
-    { linkedin = "https://linkedin.com/in/willhea" },
+    { linkedin = "https://www.linkedin.com/company/skeptical-labs-llc" },
   ]

@@ -1,0 +1,7 @@
+/* Custom styles for Skeptical Labs */
+
+/* Reduce logo size to match willhea.com */
+.logo svg {
+  height: 35px !important;
+  width: auto !important;
+}
