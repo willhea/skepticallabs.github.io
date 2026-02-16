@@ -10,7 +10,7 @@ title = "Skeptical Labs LLC"
   rtl = false
   dateFormat = "2 January 2006"
   description = "Operations consulting for startups and government. We build systems, create data visibility, and drive decisions."
-  copyright = "Skeptical Labs LLC"
+  copyright = "© { year } Skeptical Labs LLC"
 
 [params.author]
   name = "Skeptical Labs LLC"
@@ -20,5 +20,4 @@ title = "Skeptical Labs LLC"
   links = [
     { email = "mailto:will@skepticallabs.com" },
     { linkedin = "https://linkedin.com/in/willhea" },
-    { link = "https://willhea.com" },
   ]

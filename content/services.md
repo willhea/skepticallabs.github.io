@@ -1,6 +1,11 @@
 ---
 title: "Services"
 description: "Operations consulting services for startups and government"
+showDate: false
+showAuthor: false
+showReadingTime: false
+showWordCount: false
+showPagination: false
 ---
 
 ## What We Do

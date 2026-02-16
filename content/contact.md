@@ -1,6 +1,11 @@
 ---
 title: "Contact"
 description: "Get in touch with Skeptical Labs LLC"
+showDate: false
+showAuthor: false
+showReadingTime: false
+showWordCount: false
+showPagination: false
 ---
 
 ## Get in Touch

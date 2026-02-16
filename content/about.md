@@ -1,6 +1,11 @@
 ---
 title: "About"
 description: "About Skeptical Labs LLC and Will Hea"
+showDate: false
+showAuthor: false
+showReadingTime: false
+showWordCount: false
+showPagination: false
 ---
 
 ## About Skeptical Labs LLC
