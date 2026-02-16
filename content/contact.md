@@ -12,7 +12,7 @@ showPagination: false
 
 **Email:** will@skepticallabs.com
 
-**LinkedIn:** [linkedin.com/in/willhea](https://linkedin.com/in/willhea)
+**LinkedIn:** [Skeptical Labs LLC](https://www.linkedin.com/company/skeptical-labs-llc)
 
 ## Location
 

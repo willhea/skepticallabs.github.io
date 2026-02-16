@@ -3,9 +3,9 @@ title: "Skeptical Labs LLC"
 description: "Operations consulting for startups and government"
 ---
 
-We walk into dysfunction, build systems to create data visibility, and use that data to drive decisions.
+We embed where clarity is needed, surface what's not working, and build systems that outlast our engagement.
 
-Skeptical Labs LLC is a solo consulting practice led by Will Hea, specializing in operations, process improvement, and revenue systems for startups and government clients.
+Skeptical Labs LLC is a management and operations consulting practice specializing in operations, process improvement, and revenue systems for startups and government clients.
 
 {{< button href="/services/" target="_self" >}}
 Our Services

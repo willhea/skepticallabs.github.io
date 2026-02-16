@@ -10,33 +10,33 @@ showPagination: false
 
 ## What We Do
 
-We help organizations that are stuck. Whether you've inherited a mess, can't get accurate data, or need to fix broken processes, we build the systems and visibility to move forward.
+We help organizations at inflection points. Whether you're navigating a transition, need better data visibility, or want to improve your processes, we build the systems to move forward.
 
 ---
 
 ## Operations Consulting
 
-**Problem:** Your operations are chaotic. Teams are firefighting. Nobody knows what's working.
+**Problem:** Your operations are complex and fast-moving. Teams are stretched across competing priorities. Visibility is limited.
 
-**Solution:** We map your current state, identify bottlenecks, and build systems that create visibility and accountability.
+**Solution:** We map your current state, identify bottlenecks, and build systems that create visibility and accountability. We bring project management discipline (Agile, waterfall, or hybrid) to get things moving.
 
 **Results we've delivered:**
-- Reduced book close time from 2+ months to 3 business days
-- Cut delinquent invoices from 30% to 0%
-- Recovered $80K+ in bad debt through process improvements
+- Reduced book close time from 2+ months to 3 business days at a seed-stage company, enabling accurate monthly financials for the first time
+- Cut delinquent invoices from 30% to 0% through systematic follow-up processes
+- Recovered $80K+ in bad debt by identifying and addressing root causes in the invoicing workflow
 
 ---
 
 ## Data & Reporting
 
-**Problem:** You have data in multiple systems but no single source of truth. Decisions are made on gut feel.
+**Problem:** You have data in multiple systems but no single source of truth. Decisions are made on incomplete information.
 
 **Solution:** We connect your systems, build dashboards, and create the reporting infrastructure you need to make data-driven decisions.
 
 **Results we've delivered:**
-- Built first accurate churn and revenue reporting for a seed-stage startup
-- Created real-time financial dashboards replacing manual spreadsheet reconciliation
-- Identified pricing and retention issues that were invisible before
+- Built first accurate churn and revenue reporting for a seed-stage startup, revealing retention issues that drove strategic changes
+- Created real-time financial dashboards replacing hours of manual spreadsheet reconciliation each month
+- Identified pricing gaps and customer segments that were invisible without consolidated data
 
 ---
 
@@ -47,22 +47,23 @@ We help organizations that are stuck. Whether you've inherited a mess, can't get
 **Solution:** We bring private-sector agility to federal environments, navigating compliance while actually shipping.
 
 **Results we've delivered:**
-- Achieved ATO approval in under 5 months on a project 12 months behind schedule
-- Reduced attorney clearance times from 1-2 years to under 90 days (2016 DOJ Innovation Award)
-- Managed $20M+ annual contract for Operation Warp Speed vaccine monitoring
+- Achieved ATO approval in under 5 months on a Department of Energy project that was 12 months behind schedule
+- Reduced DOJ attorney clearance times from 1-2 years to under 90 days with Talent Tracker (2016 DOJ Innovation Award)
+- Managed $20M+ annual contract for Operation Warp Speed, serving as primary U.S. point of contact for Pfizer vaccine temperature monitoring
 
 ---
 
 ## Fractional Leadership
 
-**Problem:** You need experienced operations leadership but aren't ready for a full-time hire.
+**Problem:** You need experienced operations or product leadership but aren't ready for a full-time hire.
 
-**Solution:** We provide interim COO/Director-level support, building the foundation for your eventual full-time leader.
+**Solution:** We provide interim COO/CPO/Director-level support, building the foundation for your eventual full-time leader.
 
 **Typical engagements:**
 - 3-6 month engagements
 - Part-time or project-based
-- Focus on systems and processes that outlast our engagement
+- Operations, project management, or product management focus
+- Systems and processes that outlast our engagement
 
 ---
 
@@ -73,7 +74,7 @@ We help organizations that are stuck. Whether you've inherited a mess, can't get
 3. **Build:** We create systems, processes, and visibility.
 4. **Transfer:** We document everything so your team can maintain it.
 
-We optimize for results, not billable hours. Engagements are typically flat-fee or milestone-based.
+We bring operations, project management, and product management expertise to every engagement. We optimize for results, not billable hours. Engagements are typically flat-fee or milestone-based.
 
 ---
 

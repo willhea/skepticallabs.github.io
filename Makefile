@@ -3,6 +3,7 @@
 # Hugo version from .hugo-version file
 HUGO_VERSION := $(shell cat .hugo-version 2>/dev/null || echo "latest")
 HUGO_CMD := hugo
+HUGO_PORT := 1314
 
 help: ## Show this help message
 	@echo 'Usage: make [target]'
@@ -33,13 +34,13 @@ check-hugo: ## Check if Hugo is installed and matches required version
 
 server: check-hugo ## Run Hugo development server locally
 	@echo "Starting Hugo development server..."
-	@echo "Site will be available at http://localhost:1313"
-	$(HUGO_CMD) server
+	@echo "Site will be available at http://localhost:$(HUGO_PORT)"
+	$(HUGO_CMD) server -p $(HUGO_PORT)
 
 server-drafts: check-hugo ## Run Hugo development server with drafts
 	@echo "Starting Hugo development server with drafts..."
-	@echo "Site will be available at http://localhost:1313"
-	$(HUGO_CMD) server -D
+	@echo "Site will be available at http://localhost:$(HUGO_PORT)"
+	$(HUGO_CMD) server -D -p $(HUGO_PORT)
 
 build: check-hugo ## Build the static site
 	@echo "Building static site..."
