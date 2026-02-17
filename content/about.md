@@ -1,6 +1,6 @@
 ---
 title: "About"
-description: "About Skeptical Labs LLC and Will Hea"
+description: "Skeptical Labs LLC is an operations consulting practice founded by Will Hea. We specialize in process improvement, revenue systems, and fractional leadership for startups and government clients."
 showDate: false
 showAuthor: false
 showReadingTime: false
@@ -16,7 +16,7 @@ The company was founded on a simple principle:
 
 > Solve the most interesting problems, for the best clients, with the most talented people, to live the lives we choose, all the time.
 
-We focus on client work, not overhead. Every engagement is designed to deliver measurable results and leave your team better equipped to maintain the systems we build.
+We focus on client work, not overhead. Every engagement is designed to deliver measurable results and leave your team better equipped to maintain the systems we build. See our [Services](/services/) for details on how we work.
 
 ## Track Record
 
@@ -54,6 +54,8 @@ For more details, see [Will's personal site](https://willhea.com) or his [portfo
 
 ## Contact
 
-Email: will@skepticallabs.com
+Ready to talk? [Get in touch](/contact/) or reach us directly:
 
-LinkedIn: [Skeptical Labs LLC](https://www.linkedin.com/company/skeptical-labs-llc)
+**Email:** will@skepticallabs.com
+
+**LinkedIn:** [Skeptical Labs LLC](https://www.linkedin.com/company/skeptical-labs-llc)

@@ -1,6 +1,6 @@
 ---
 title: "Skeptical Labs LLC"
-description: "Operations consulting for startups and government"
+description: "Operations consulting for startups and government. We build reporting systems, fix broken processes, and provide fractional leadership that delivers measurable results."
 ---
 
 We embed where clarity is needed, surface what's not working, and build systems that outlast our engagement.

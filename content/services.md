@@ -1,6 +1,6 @@
 ---
 title: "Services"
-description: "Operations consulting services for startups and government"
+description: "Operations consulting, data and reporting, federal contracting support, and fractional COO/CPO leadership. Flat-fee and milestone-based engagements designed to deliver measurable results."
 showDate: false
 showAuthor: false
 showReadingTime: false

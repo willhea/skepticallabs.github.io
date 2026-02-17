@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-description: "Get in touch with Skeptical Labs LLC"
+description: "Contact Skeptical Labs LLC for operations consulting, fractional leadership, or federal contracting support. Based in Arlington, VA, working with clients nationwide."
 showDate: false
 showAuthor: false
 showReadingTime: false
@@ -23,3 +23,5 @@ We work with clients nationwide and internationally. Most engagements are remote
 ## Response Time
 
 We typically respond within 1-2 business days.
+
+Not sure what you need? Review our [Services](/services/) or learn more [About us](/about/).
