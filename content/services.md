@@ -47,7 +47,7 @@ We help organizations at inflection points. Whether you're navigating a transiti
 **Solution:** We bring private-sector agility to federal environments, navigating compliance while actually shipping.
 
 **Results we've delivered:**
-- Achieved ATO approval in under 5 months on a Department of Energy project that was 12 months behind schedule
+- Took over a Department of Energy ServiceNow project and achieved ATO approval in under 5 months while reducing staffing costs 75%
 - Reduced DOJ attorney clearance times from 1-2 years to under 90 days with Talent Tracker (2016 DOJ Innovation Award)
 - Managed $20M+ annual contract for Operation Warp Speed, serving as primary U.S. point of contact for Pfizer vaccine temperature monitoring
 

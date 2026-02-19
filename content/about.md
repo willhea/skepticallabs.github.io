@@ -24,7 +24,7 @@ Our team has delivered measurable results across startups and federal agencies:
 
 - **Operation Warp Speed:** Primary U.S. point of contact for Pfizer COVID-19 vaccine temperature monitoring, managing a $20M+ annual contract. Received Letter of Commendation from General Gustave Perna and recognition from President Biden.
 - **DOJ Criminal Division:** Built Talent Tracker, reducing attorney clearance times from 1-2 years to under 90 days. 2016 DOJ Innovation Award.
-- **Department of Energy:** Achieved ATO approval in under 5 months on a project that was 12 months behind schedule.
+- **Department of Energy:** Took over a ServiceNow project and achieved ATO approval in under 5 months while reducing staffing costs 75%.
 - **Seed-stage startups:** Built first accurate churn and revenue reporting, reduced book close from 2+ months to 3 days, recovered $80K+ in bad debt.
 
 For detailed case studies, see [Will's portfolio](https://willhea.com/portfolio/).
@@ -35,7 +35,7 @@ For detailed case studies, see [Will's portfolio](https://willhea.com/portfolio/
 
 [Will Hea](https://willhea.com) is the founder and principal consultant at Skeptical Labs LLC.
 
-Will has spent his career embedding where clarity is needed and building systems that outlast his engagement. His experience spans:
+Will has spent his career embedding with teams, building operational systems, and leaving behind infrastructure that outlasts his engagement. His experience spans:
 
 - **Startups:** Controlant, Phin Security, Commonwealth Joe
 - **Government:** DOJ Criminal Division, Department of Energy, Operation Warp Speed
