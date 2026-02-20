@@ -8,7 +8,7 @@ Skeptical Labs LLC is a solo operations consulting practice based in Arlington, 
 
 ## Services
 
-- Operations Consulting: Process improvement, systems design, operational chaos to order
+- Operations Consulting: Process improvement, systems design, building operational structure
 - Data & Reporting: Dashboard creation, system integration, single source of truth
 - Federal Contracting: Government project recovery, compliance, ATO processes
 - Fractional Leadership: Interim COO/Director roles, 3-6 month engagements
