@@ -18,6 +18,12 @@ The company was founded on a simple principle:
 
 We focus on client work, not overhead. Every engagement is designed to deliver measurable results and leave your team better equipped to maintain the systems we build. See our [Services](/services/) for details on how we work.
 
+## How We Work With Clients
+
+Every engagement starts the same way: you define the goal and success criteria, and we own how to get there. That includes system selection, process design, implementation, and documentation.
+
+We start by building shared dashboards and reporting so your team and ours are looking at the same numbers. From there, we design and build the operational systems to hit the target. Everything we build is documented and designed to run after we leave.
+
 ## Track Record
 
 Our team has delivered measurable results across startups and federal agencies:
@@ -35,7 +41,7 @@ For detailed case studies, see [Will's portfolio](https://willhea.com/portfolio/
 
 [Will Hea](https://willhea.com) is the founder and principal consultant at Skeptical Labs LLC.
 
-Will has spent his career working with teams, building operational systems, and leaving behind infrastructure that lasts. His experience spans:
+Will has spent his career working alongside teams to build the dashboards, reporting, and operational systems that drive execution — from seed-stage startups to Operation Warp Speed. His experience spans:
 
 - **Startups:** Controlant, Phin Security, Commonwealth Joe
 - **Government:** DOJ Criminal Division, Department of Energy, Operation Warp Speed

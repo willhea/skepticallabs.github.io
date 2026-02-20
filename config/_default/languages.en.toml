@@ -9,7 +9,7 @@ title = "Skeptical Labs LLC"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  description = "Operations consulting for startups and government. We build systems, create data visibility, and drive decisions."
+  description = "Operations consulting for startups and government. We build systems for data-driven accountability and operational excellence."
   copyright = "© { year } Skeptical Labs LLC"
   logo = "images/logo.svg"
 
@@ -17,7 +17,7 @@ title = "Skeptical Labs LLC"
   name = "Skeptical Labs LLC"
   email = "will@skepticallabs.com"
   headline = "Operations Consulting"
-  bio = "We go where clarity is needed, surface what's not working, and build systems that last."
+  bio = "We build operational systems that create visibility, accountability, and better decisions."
   links = [
     { email = "mailto:will@skepticallabs.com" },
     { linkedin = "https://www.linkedin.com/company/skeptical-labs-llc" },
