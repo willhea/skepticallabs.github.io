@@ -44,7 +44,7 @@ We help organizations at inflection points. Whether you're navigating a transiti
 
 **Problem:** Your government project is behind schedule, over budget, or failing to deliver.
 
-**Solution:** We bring private-sector agility to federal environments, navigating compliance while actually shipping.
+**Solution:** We bring private-sector agility to federal environments, navigating compliance while delivering results.
 
 **Results we've delivered:**
 - Took over a Department of Energy ServiceNow project and achieved ATO approval in under 5 months while reducing staffing costs 75%
@@ -63,7 +63,7 @@ We help organizations at inflection points. Whether you're navigating a transiti
 - 3-6 month engagements
 - Part-time or project-based
 - Operations, project management, or product management focus
-- Systems and processes that outlast our engagement
+- Systems and processes that last
 
 ---
 

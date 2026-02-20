@@ -35,7 +35,7 @@ For detailed case studies, see [Will's portfolio](https://willhea.com/portfolio/
 
 [Will Hea](https://willhea.com) is the founder and principal consultant at Skeptical Labs LLC.
 
-Will has spent his career embedding with teams, building operational systems, and leaving behind infrastructure that outlasts his engagement. His experience spans:
+Will has spent his career working with teams, building operational systems, and leaving behind infrastructure that lasts. His experience spans:
 
 - **Startups:** Controlant, Phin Security, Commonwealth Joe
 - **Government:** DOJ Criminal Division, Department of Energy, Operation Warp Speed
