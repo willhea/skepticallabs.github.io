@@ -11,7 +11,7 @@ Project context for Claude and other AI agents.
 ## Commands
 
 ```bash
-make server        # Run dev server at http://localhost:1313
+make server        # Run dev server at http://localhost:1314
 make server-drafts # Dev server with draft content
 make build         # Build static site to public/
 make clean         # Remove generated files

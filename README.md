@@ -72,7 +72,7 @@ make clean
 make help
 ```
 
-The site will be available at `http://localhost:1313` by default. The generated site will be in the `public/` directory.
+The site will be available at `http://localhost:1314` by default. The generated site will be in the `public/` directory.
 
 **Direct Hugo commands:**
 
@@ -107,8 +107,8 @@ hugo                 # Build site
 - The Makefile checks for minimum Hugo version
 - Install a newer version if needed: `brew upgrade hugo`
 
-**Port 1313 already in use:**
-- Stop other Hugo servers or change port: `hugo server -p 1314`
+**Port 1314 already in use:**
+- Stop other Hugo servers or change port: `hugo server -p 1315`
 
 **Theme errors:**
 - Ensure theme is installed: `git submodule update --init --recursive`
