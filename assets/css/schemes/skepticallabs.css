@@ -2,8 +2,8 @@
 :root {
   --color-neutral: 255, 255, 255;
   /* Gray/Silver scale */
-  --color-neutral-50: 250, 250, 250;
-  --color-neutral-100: 244, 244, 245;
+  --color-neutral-50: 255, 255, 255;
+  --color-neutral-100: 250, 250, 250;
   --color-neutral-200: 228, 228, 231;
   --color-neutral-300: 212, 212, 216;
   --color-neutral-400: 162, 164, 161;
