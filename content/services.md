@@ -10,7 +10,7 @@ showPagination: false
 
 ## What We Do
 
-We build operational systems for organizations at inflection points. We work alongside your team in the data and the tools, design the dashboards and processes they need, and document everything so it runs without us.
+We work on messy, tough, and weird problems. The harder, the better. 
 
 ---
 
@@ -50,6 +50,14 @@ We build operational systems for organizations at inflection points. We work alo
 - Achieved ATO approval for a Department of Energy ServiceNow project in under 5 months while reducing staffing costs 75%
 - Reduced DOJ attorney clearance times from 1-2 years to under 90 days with Talent Tracker (2016 DOJ Innovation Award)
 - Managed $20M+ annual contract for Operation Warp Speed, serving as primary U.S. point of contact for Pfizer vaccine temperature monitoring
+
+Skeptical Labs LLC is available for federal subcontracting.
+
+<!-- TODO after SAM.gov registration: add UEI and NAICS publicly.
+     UEI: __________
+     NAICS (candidates): 541611 (Admin/General Mgmt Consulting),
+     541614 (Process/Distribution/Logistics Consulting),
+     541511 (Custom Computer Programming) -->
 
 ---
 
