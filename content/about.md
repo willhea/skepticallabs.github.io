@@ -28,7 +28,7 @@ We start by building shared dashboards and reporting so your team and ours are l
 
 Our team has delivered measurable results across startups and federal agencies:
 
-- **Operation Warp Speed:** Primary U.S. point of contact for Pfizer COVID-19 vaccine temperature monitoring, managing a $20M+ annual contract. Received Letter of Commendation from General Gustave Perna and recognition from President Biden.
+- **Operation Warp Speed:** Primary U.S. point of contact for Pfizer COVID-19 vaccine temperature monitoring, managing a $50M contract. Received Letter of Commendation from General Gustave Perna and recognition from President Biden.
 - **DOJ Criminal Division:** Built Talent Tracker, reducing attorney clearance times from 1-2 years to under 90 days. 2016 DOJ Innovation Award.
 - **Department of Energy:** Took over a ServiceNow project and achieved ATO approval in under 5 months while reducing staffing costs 75%.
 - **Seed-stage startups:** Built first accurate churn and revenue reporting, reduced book close from 2+ months to 3 days, recovered $80K+ in bad debt.
@@ -54,7 +54,7 @@ Notable accomplishments include:
 - Letter of Commendation from General Gustave Perna
 - Recognition from President Biden
 
-Will holds PMP, A-CSM, CSPO, and SAFe Agilist certifications. He earned his MA and BA in International Studies from American University.
+Will holds PMP, A-CSM, CSPO, and SAFe Agilist certifications. He earned his MA in U.S. Foreign Policy and BA in International Studies from American University.
 
 For more details, see [Will's personal site](https://willhea.com) or his [portfolio](https://willhea.com/portfolio/).
 

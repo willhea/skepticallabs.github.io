@@ -49,7 +49,7 @@ We work on messy, tough, and weird problems. The harder, the better.
 **Results we've delivered:**
 - Achieved ATO approval for a Department of Energy ServiceNow project in under 5 months while reducing staffing costs 75%
 - Reduced DOJ attorney clearance times from 1-2 years to under 90 days with Talent Tracker (2016 DOJ Innovation Award)
-- Managed $20M+ annual contract for Operation Warp Speed, serving as primary U.S. point of contact for Pfizer vaccine temperature monitoring
+- Managed a $50M contract for Operation Warp Speed, serving as primary U.S. point of contact for Pfizer vaccine temperature monitoring
 
 Skeptical Labs LLC is available for federal subcontracting.
 
