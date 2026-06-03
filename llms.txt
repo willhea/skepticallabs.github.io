@@ -18,7 +18,7 @@ Skeptical Labs LLC is a solo operations consulting practice based in Arlington, 
 - Startups (seed to Series B)
 - Federal government (DOD, DOE, DOJ, HHS)
 - Revenue operations and financial systems
-- Regulated environments (HIPAA, SOC II, NIST 853, Congressional ethics)
+- Regulated environments (HIPAA, SOC 2, NIST 800-53, Congressional ethics)
 
 ## Notable Experience
 
