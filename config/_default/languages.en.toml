@@ -14,7 +14,10 @@ title = "Skeptical Labs LLC"
   logo = "images/logo.svg"
 
 [params.author]
+  # name is the legal entity: used by schema.org, meta author, and RSS.
+  # displayTitle is the homepage H1 only, where "LLC" reads as filing boilerplate.
   name = "Skeptical Labs LLC"
+  displayTitle = "Skeptical Labs"
   email = "will@skepticallabs.com"
   image = "images/logo.svg"
   headline = "Operations Consulting"
