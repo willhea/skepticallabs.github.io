@@ -16,9 +16,6 @@ title = "Skeptical Labs LLC"
 [params.author]
   name = "Skeptical Labs LLC"
   email = "will@skepticallabs.com"
+  image = "images/logo.svg"
   headline = "Operations Consulting"
   bio = "We build operational systems that create visibility, accountability, and better decisions."
-  links = [
-    { email = "mailto:will@skepticallabs.com" },
-    { linkedin = "https://www.linkedin.com/company/skeptical-labs-llc" },
-  ]
